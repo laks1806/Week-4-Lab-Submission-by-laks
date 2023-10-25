@@ -26,3 +26,9 @@ modified_board = flood_fill(board, ".", "~", 5, 12)
 
 for row in modified_board:
     print(row)
+
+# Different Flood Fill View - Abhi
+modified_board = flood_fill(board, ".", "~", 1, 1)
+
+for row in modified_board:
+    print(row)
